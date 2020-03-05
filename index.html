@@ -3,30 +3,35 @@
 <!-- The start of HTML -->
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <title>
-        CS50 Web
+        CS50 By Harvard
     </title>
 </head>
 <!-- The visible part of the web-page -->
 <body>
     <div class="container">
+        <div class="alert alert-success" role="alert">
+            This is my web track portal containing all the web projects !
+        </div>
         <h1>Hello, World</h1>
-        <h2>CS50 Star!</h2>
+        <h2>She's coding too!</h2>
         <p>
-            <img src="duck.jpg" alt="Picture of a yellow duck">
+            <img src="duck.jpg" alt="Picture of a yellow duck" class="shadow">
         </p>
         <hr>
         <h2>CS50 Page</h2>
         <p>
-            Visit <a href="https://cs50.harvard.edu/x/2020/">CS50</a> By Harvard
+            Visit <a href="https://cs50.harvard.edu/x/2020/" target="_blank">CS50</a> By Harvard
         </p>
         <hr>
         <h2>CS50 Content</h2>
         <table>
             <tr>
-                <td class="main">Weeks</td>
-                <td class="main">Subject</td>
+                <th>Weeks</th>
+                <th>Subject</th>
             </tr>
             <tr>
                 <td>Week 0</td>
@@ -65,18 +70,26 @@
                 <td>Information</td>
             </tr>
             <tr>
-                <td>Final</td>
+                <td>Final Week</td>
                 <td>Web Track</td>
             </tr>
         </table>
         <hr>
         <h3>if you need anything google it!</h3>
-        <form action="https://www.google.com/search" method="get">
-            <label for="google">
-                <input id="google" name="q" type="text">
-            </label>
-            <input type="submit" value="Google it">
+        <form action="https://www.google.com/search" target="_blank" method="get">
+            <label for="search"></label>
+            <input id="search" name="q" type="text">
+            <input type="submit" value="Google It">
         </form>
+        <div class="note">
+            <h3>Note: Google search parameter</h3>
+            <p>
+                https://www.google.com/search?q=cats <br>
+                <span>https://www.google.com/search</span> The main search link <br>
+                <span>?</span> Get parameter <br>
+                <span>q= [user input]</span> Means query for user input <br>
+            </p>
+        </div>
     </div>
 </body>
 </html>

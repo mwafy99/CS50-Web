@@ -1,34 +1,61 @@
+body {
+    font-family: sans-serif;
+    background-color: lightgray;
+}
 
 .container {
     width: 600px;
     margin: 20px auto;
     text-align: center;
-    background-color: lightgray;
-    border-radius: 20px;
+    background-color: white;
+    border-radius: 10px;
     padding: 20px;
 }
-h1,h2,h3 {
+
+h1, h2, h3 {
     color: purple;
 }
+
+h1 {
+    font-size: 3rem;
+}
+
 img {
     width: 300px;
     border-radius: 10px;
 }
+
 a {
     text-decoration: none;
     font-weight: bold;
-color: deeppink;
+    color: deeppink;
 }
+
+a:hover {
+    font-size: 2rem;
+    color: green;
+}
+
 table {
     margin: 0 auto;
 }
 
-.main {
-    color: dodgerblue;
-    font-weight: bold;
+th {
+    background-color: white;
 }
-table, tr, td {
+
+table,td,th {
     border: 2px solid darkgrey;
     padding: 5px;
     text-align: center;
+    border-collapse: collapse;
+}
+span {
+    font-weight: bold;
+    color: dodgerblue;
+}
+.note {
+    margin-top: 15px;
+    padding: 2px;
+    border: 2px solid gray;
 }
