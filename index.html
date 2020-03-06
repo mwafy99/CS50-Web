@@ -13,7 +13,7 @@
 <!-- The visible part of the web-page -->
 <body>
     <div class="container">
-        <div class="alert alert-success" role="alert">
+        <div class="alert alert-success shadow" role="alert">
             This is my web track portal containing all the web projects !
         </div>
         <h1>Hello, World</h1>
@@ -76,10 +76,12 @@
         </table>
         <hr>
         <h3>if you need anything google it!</h3>
-        <form action="https://www.google.com/search" target="_blank" method="get">
-            <label for="search"></label>
-            <input id="search" name="q" type="text">
-            <input type="submit" value="Google It">
+        <form action="https://www.google.com/search" method="get" target="_blank">
+            <div class="form-group">
+                <label for="google"></label>
+                <input type="text" name="q" id="google" class="form-control">
+                <button class="btn btn-primary mt-2" type="submit">Google It</button>
+            </div>
         </form>
         <div class="note">
             <h3>Note: Google search parameter</h3>

@@ -58,4 +58,5 @@ span {
     margin-top: 15px;
     padding: 2px;
     border: 2px solid gray;
+    border-radius: 5px;
 }
