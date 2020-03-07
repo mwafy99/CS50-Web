@@ -12,7 +12,7 @@ body {
     padding: 20px;
 }
 
-h1, h2, h3 {
+h1, h2, h3{
     color: purple;
 }
 
@@ -30,12 +30,6 @@ a {
     font-weight: bold;
     color: deeppink;
 }
-
-a:hover {
-    font-size: 2rem;
-    color: green;
-}
-
 table {
     margin: 0 auto;
 }
@@ -60,3 +54,13 @@ span {
     border: 2px solid gray;
     border-radius: 5px;
 }
+#location {
+    font-family: monospace;
+    color: deeppink;
+    font-weight: bold;
+    background-color: whitesmoke;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+}
+
