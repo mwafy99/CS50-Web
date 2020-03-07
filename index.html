@@ -7,20 +7,24 @@
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <title>
-        CS50 By Harvard
+        Ducky Portal
     </title>
 </head>
 <!-- The visible part of the web-page -->
 <body>
     <div class="container">
         <div class="alert alert-success shadow" role="alert">
-            This is my web track portal containing all the web projects !
+            This is my Ducky Portal with all CS50 web track projects!
         </div>
-        <h1>Hello, World</h1>
+        <h1 id="hola">Hello, World</h1>
+        <button class="btn btn-outline-danger my-2" id="duck" onclick="hola()">Ducky Duck!</button>
         <h2>She's coding too!</h2>
         <p>
             <img src="duck.jpg" alt="Picture of a yellow duck" class="shadow">
         </p>
+        <div>
+            <h5>You just waste <span class="badge badge-warning badge-pill"></span> seconds with ducks!</h5>
+        </div>
         <hr>
         <h2>CS50 Page</h2>
         <p>
@@ -83,7 +87,7 @@
                 <button class="btn btn-primary mt-2" type="submit">Google It</button>
             </div>
         </form>
-        <div class="note">
+        <div class="note my-3">
             <h3>Note: Google search parameter</h3>
             <p>
                 https://www.google.com/search?q=cats <br>
@@ -92,6 +96,10 @@
                 <span>q= [user input]</span> Means query for user input <br>
             </p>
         </div>
+        <p>Ducky Portal Created By Mwafy @2020</p>
     </div>
+
+    <!-- Javascript -->
+    <script src="app.js"></script>
 </body>
 </html>
