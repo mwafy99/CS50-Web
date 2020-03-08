@@ -11,8 +11,7 @@ let counter = 0;
 function count() {
     document.querySelector('.badge').innerHTML = "" + counter;
     counter++;
-    // setTimeout(count, 1000);
-    window.setInterval(count,1000)
+    setTimeout(count, 1000);
 }
 
 document.addEventListener("DOMContentLoaded", count);

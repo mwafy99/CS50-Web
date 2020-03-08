@@ -1,10 +1,13 @@
+/*
+    This is the CSS for all the pages of the cs50 portal
+ */
 body {
     font-family: sans-serif;
     background-color: lightgray;
 }
 
 .container {
-    width: 600px;
+    width: 800px;
     margin: 20px auto;
     text-align: center;
     background-color: white;
@@ -28,7 +31,7 @@ img {
 a {
     text-decoration: none;
     font-weight: bold;
-    color: deeppink;
+    color: rgba(0,0,0,0.5);
 }
 table {
     margin: 0 auto;
@@ -63,4 +66,16 @@ span {
     padding: 10px;
     border-radius: 5px;
 }
+li {
+    display: inline-block;
+}
 
+.main-lang {
+    display: flex;
+    justify-content: space-evenly;
+}
+.main-lang p {
+    background-color: lightgray;
+    padding: 5px;
+    border-radius: 5px;
+}
